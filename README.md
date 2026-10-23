@@ -1,27 +1,29 @@
-# Nordaurai, mock-up di stile della home
+# Nordaurai, new home page (style preview)
 
-Rifacimento statico della home di https://www.nordaurai.com/ nello stile di https://www.oddlatent.com/ (solo stile: testi, immagini e logo sono di Nordaurai). Solo inglese, una pagina, nessun servizio di terzi né cookie.
+This is a preview of a new look for the home page of [nordaurai.com](https://www.nordaurai.com/). It is meant to show the style, not to replace the live site yet.
 
-Anteprima: voce `nordaurai-static` (porta 5400). Controllo: `bash check-site.sh`.
+## What it is
 
-## Da far confermare al cliente
+One page that presents Nordaurai and its flagship program, Practice Leading Under Pressure: a play-based leadership program grounded in positive psychology, from Finland.
 
-Correzioni ai testi (in `docs/CONTENT.md` sono marcate `[fix]`):
-- Hero: titolo e sottotitolo separati ("Practice Leading Under Pressure" + "A play-based leadership program grounded in the science of positive psychology. From Finland.").
-- Nuova etichetta di sezione "How it works" (sul sito attuale il titolo ripete il nome del programma).
-- "Meet the game behind lead under pressure program" → "Meet the game behind the Lead Under Pressure program".
-- "Case 2:Nordic Game" → "Case study 2: Nordic Game".
-- FAQ: "Does Nordaurai's play-based program backed…" → "Is Nordaurai's play-based program backed…".
-- Punteggiatura e virgolette uniformate; nessun trattino lungo nelle attribuzioni.
+The page walks the visitor through:
+- the problem: what happens to leaders and teams under pressure
+- how the program works, in three steps
+- the physical and digital games
+- the science behind the game
+- what players say and two case studies
+- Nordaurai's story, the founder and the team
+- media coverage, latest blog posts and frequently asked questions
 
-Abbinamento foto e casi studio: sul sito attuale non è chiaro quale foto va con quale caso. Qui: case-1 con Psyon Games, case-2 con Nordic Game.
+Every "Book a demo" button opens Nordaurai's booking calendar.
 
-## Spazi vuoti
+## The look
 
-- `[DIGITAL GAME SCREENSHOT HERE]` nella scheda "Digital game": serve uno screenshot del gioco digitale.
+Bold, playful and game-like: very large headlines, full-width blocks of color, rounded buttons and wavy edges between sections. The colors come from Nordaurai's own brand (indigo, lime and magenta), and all illustrations and photos are Nordaurai's own.
 
-## Cosa non c'è (fuori dal mock-up)
+## Good to know
 
-Pagine blog/media/contatti, finlandese, modulo contatti, privacy e termini (i link puntano al sito attuale), deploy.
-
-Correzioni di ortografia e punteggiatura (seconda passata): punti finali mancanti, "self reflection" → "self-reflection", "wellbeing oriented" → "wellbeing-oriented", "outcome in" → "outcomes in", "The answer of her validation" → "The result of her validation", nome del programma uniformato in "Practice Leading Under Pressure". "science- and play-based" è corretto (trattino sospeso) ed è rimasto.
+- The page is in English only.
+- All texts come from the current website, with small spelling and punctuation corrections.
+- One image is still missing: a screenshot of the digital game.
+- Blog, media and legal pages still link to the current website.

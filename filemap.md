@@ -13,5 +13,6 @@
 - index.html — the home page (T2)
 - css/style.css — tokens, base, components, sections (T2)
 - js/site.js — mobile menu, tabs, bottom bar (T2)
-- README.md — for Gabriele/client: [fix] list, slots, open questions (T3)
+- README.md — short English description of the site (non-technical)
+- docs/NOTES.md — notes for Gabriele/client: [fix] list, slots, open questions (Italian)
 - backup/ — automatic hook copies, gitignored
