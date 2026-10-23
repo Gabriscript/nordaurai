@@ -70,13 +70,13 @@ No image exists for the digital game: use the slot `[DIGITAL GAME SCREENSHOT HER
 
 ### How it works
 - H2: How it works **[fix]** (new section label; original repeats "Practice leading Under Pressure")
-- Intro: This play-based program is the flagship of Nordaurai's game-based positive psychology model
+- Intro: This play-based program is the flagship of Nordaurai's game-based positive psychology model.
 - Step 1, Play & Engage: Pressure is simulated through games: challenges, competing priorities and managing stress.
-- Step 2, Practice leading under pressure: Practicing leading through games: outcome in emotional intelligence, delegation, decision making and communication
+- Step 2, Practice leading under pressure: Practicing leading through games: outcomes in emotional intelligence, delegation, decision making and communication.
 - Step 3, Organizational performance improves: Better execution, better wellbeing, effective decision making and increased revenue performance
 
 ### Pressure in numbers (statement)
-- Managers are the most pressured people at work: 45% experience a lot of stress (Gallup, 2026). And ineffective decision making costs a typical large company about $250 million in managers' time every year (McKinsey)
+- Managers are the most pressured people at work: 45% experience a lot of stress (Gallup, 2026). And ineffective decision making costs a typical large company about $250 million in managers' time every year (McKinsey).
 
 ### Why play
 - H2: Why does a play-based approach help?
@@ -93,20 +93,20 @@ No image exists for the digital game: use the slot `[DIGITAL GAME SCREENSHOT HER
 - The program includes: Pressure simulated through science-based games grounded in real leadership challenges / Facilitation by a psychologist and leader development coach / ROI measurement, so you see what changed
 
 ### Meet the game
-- H2: Meet the game behind the Lead Under Pressure program **[fix]** (original: "Meet the game behind lead under pressure program")
+- H2: Meet the game behind the Practice Leading Under Pressure program **[fix]** (original: "Meet the game behind lead under pressure program")
 - Sub: A research-backed approach, grounded in positive psychology
 - Purpose and outcome: trains strength-based thinking through cognitive reframing. The game builds self-efficacy, reduces shame around weaknesses, and creates psychological safety through humour and play. It improves active listening, communication, and empathy among leaders, and builds teamwork among team players.
 - The science behind the game: PERMA (Seligman) / Psychological safety (Edmondson) / Self-compassion (Neff) / Self-efficacy (Bandura) / Active listening (Rogers & Farson) / Emotional intelligence (Goleman)
 
 ### What our players say
 1. "It helped me reflect and open up among others in a way I wouldn't have done otherwise" (Game developer, Nordic Game conference)
-2. "A very good tool for team engagement, the games make you open up easily and have fun while reflecting" (Olli, Co-founder, Psyon Games)
-3. "The Bingo game is an amazing tool for understanding what is working in our organisation and what needs improvement. Our participants genuinely enjoyed it and we walked away with detailed, actionable insights. Highly recommended" (HR Professional, Pilot Client, Finland)
+2. "A very good tool for team engagement, the games make you open up easily and have fun while reflecting." (Olli, Co-founder, Psyon Games)
+3. "The Bingo game is an amazing tool for understanding what is working in our organisation and what needs improvement. Our participants genuinely enjoyed it and we walked away with detailed, actionable insights. Highly recommended." (HR Professional, Pilot Client, Finland)
 
 ### Case studies
 - H2: Case studies
 - Case study 1: Psyon Games (image case-1): In this pilot session, Psyon Games ran a team engagement session with Nordaurai. With the Self-Compassion game, participants found real value in opening up to each other. With the Guess the Emotions game, the team identified who tends to feel a certain way under certain circumstances, insight that will help them navigate future situations as a team.
-- Case study 2: Nordic Game **[fix]** (original "Case 2:Nordic Game") (image case-2): Participants came from different organizations and were meeting for the first time. Despite this, Nordaurai's games helped establish psychological safety quickly, and participants were open and fully engaged throughout the sessions. This showed that even among strangers, a well-designed gamified format can create trust and openness faster than traditional icebreakers or lectures. "Very good tools to start conversations and self reflection, especially in a group".
+- Case study 2: Nordic Game **[fix]** (original "Case 2:Nordic Game") (image case-2): Participants came from different organizations and were meeting for the first time. Despite this, Nordaurai's games helped establish psychological safety quickly, and participants were open and fully engaged throughout the sessions. This showed that even among strangers, a well-designed gamified format can create trust and openness faster than traditional icebreakers or lectures. "Very good tools to start conversations and self-reflection, especially in a group."
 
 Note: on the live site the image/text pairing of the two cases is ambiguous; keep the pairing above and list it in README to confirm.
 
@@ -114,7 +114,7 @@ Note: on the live site the image/text pairing of the two cases is ambiguous; kee
 - H2: Our story
 - Nordaurai was founded with the deep passion and vision of our founder, Angela Boyajian Adjounian, who spent years in the corporate world and saw how mental wellbeing and leadership trainings are passive and fail to reach everyone. Seeing the pressure in leadership, and her own mistakes due to pressure, made her talk with leaders, and it turned out that leading under pressure is a universal pain among leaders. That is why the science- and play-based Practice Leading Under Pressure program was developed as the flagship program of Nordaurai.
 - Angela's passion for occupational wellbeing and learning and development took her to the University of Helsinki, where she conducted research on occupational wellbeing and validated her approach with businesses and organizations in Finland and the UAE.
-- The answer of her validation and study at the University of Helsinki became our first flagship program: the positive psychology, play-based Practice Leading Under Pressure program.
+- The result of her validation and study at the University of Helsinki became our first flagship program: the positive psychology, play-based Practice Leading Under Pressure program.
 - Nordaurai goes beyond gamification in corporate learning and development. It's a real game within a program grounded in positive psychology, where pressure is simulated through games, leaders engage from the first moment, and they practice behavior change and learning.
 
 ### Founder quote
@@ -136,7 +136,7 @@ Note: on the live site the image/text pairing of the two cases is ambiguous; kee
 ### Media
 - H2: Nordaurai in global media
 - Title: Nordaurai and our founder were featured in Bizpreneur Middle East Magazine
-- Quote: "We are based in Finland, the world's happiest and most wellbeing oriented country. Dubai, on the other hand, is the region's capital of innovation, business, and bold ideas. Can you imagine what happens when you bridge these two forces? That's exactly what Nordaurai does."
+- Quote: "We are based in Finland, the world's happiest and most wellbeing-oriented country. Dubai, on the other hand, is the region's capital of innovation, business, and bold ideas. Can you imagine what happens when you bridge these two forces? That's exactly what Nordaurai does."
 - Read the full article in Bizpreneur Middle East Magazine, page 140.
 - Link label: Read the article (to the flipsnack URL)
 

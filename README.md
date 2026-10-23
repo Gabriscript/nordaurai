@@ -23,3 +23,5 @@ Abbinamento foto e casi studio: sul sito attuale non è chiaro quale foto va con
 ## Cosa non c'è (fuori dal mock-up)
 
 Pagine blog/media/contatti, finlandese, modulo contatti, privacy e termini (i link puntano al sito attuale), deploy.
+
+Correzioni di ortografia e punteggiatura (seconda passata): punti finali mancanti, "self reflection" → "self-reflection", "wellbeing oriented" → "wellbeing-oriented", "outcome in" → "outcomes in", "The answer of her validation" → "The result of her validation", nome del programma uniformato in "Practice Leading Under Pressure". "science- and play-based" è corretto (trattino sospeso) ed è rimasto.
