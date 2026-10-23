@@ -14,11 +14,11 @@ Depends on: nothing. Nothing runs in parallel with it.
 - Update `filemap.md`.
 Verify: every `assets/img/*.webp` opens (report px and KB per file, total KB), fonts present, `bash check-site.sh` runs (no pages yet is fine).
 
-## T2 [ ] Build the home page (Careful)
+## T2 [x] Build the home page (Careful)
 Depends on: T1.
 
 Build `index.html`, `css/style.css`, `js/site.js` exactly as `docs/SPEC.md` (all of it) with copy from `docs/CONTENT.md` only.
 Verify: `bash check-site.sh` exits 0; preview `nordaurai-static` (http://localhost:5400) at 375px and 1280px, no horizontal scroll at 360px, no console errors, tabs by mouse and arrow keys, FAQ, mobile menu, bottom bar appears after the hero.
 
-## T3 [ ] Review (orchestrator)
+## T3 [x] Review (orchestrator)
 Visual review against SPEC at 375/1280, audit (my-frontend audit.md), README.md for the client (what is new, [fix] list, slots, open questions).
