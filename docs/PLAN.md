@@ -2,7 +2,7 @@
 
 Status: [ ] todo, [~] in progress, [x] accepted by the orchestrator.
 
-## T1 [ ] Scaffold: assets, check script, preview (Light)
+## T1 [x] Scaffold: assets, check script, preview (Light)
 Depends on: nothing. Nothing runs in parallel with it.
 
 - Download every image listed in `docs/CONTENT.md` > Images into `_originali/` (keep originals, name them `<id>.<ext>` using the table's id). Use curl; check each file is a real image (not HTML).
