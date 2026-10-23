@@ -39,7 +39,12 @@ Motion: one ease `cubic-bezier(0.16, 1, 0.3, 1)`, 150-400ms, only transform/opac
 ## Signature elements
 1. **Wavy edge**: one inline SVG wave (same path everywhere), used at the bottom of the hero and at the top of the footer. Color = the next block's color. Nowhere else.
 2. **Hero entrance**: H1 lines rise in a 2-step stagger (0 / 120ms, 400ms each) and the hero illustration settles in; after that a slow float (translateY 0 to -10px, 6s alternate) on desktop only. No other entrance animations on the page.
-3. **Pill tab bar** in the program section (Odd Latent's segmented control): ink pill track, magenta active pill, works with arrow keys.
+4. **Wave wipe** (Odd Latent's menu/page transition): an indigo curtain, full viewport, with the same vertical wavy edge on its left and right side, slides right to left across the screen.
+   - Mobile menu open: curtain enters from the right and covers the screen (400ms); the menu content (top row with logo + close button, then the links) is shown on the indigo. Close (button, Escape, or a link): the curtain leaves to the left (400ms), taking the waves with it.
+   - Section navigation (header nav links ≥1024px, and links in the mobile menu): curtain covers, the page jumps instantly to the target section under it, the curtain leaves to the left. Total about 1s.
+   - Menu look: indigo surface, links in Barlow Condensed uppercase paper, hover/current lime; logo stays white (never recolored).
+   - Reduced motion or no JS: no curtain; the menu appears/disappears instantly, anchors scroll normally.
+5. **Pill tab bar** in the program section (Odd Latent's segmented control): ink pill track, magenta active pill, works with arrow keys.
 
 ## Page structure (one H1, anchors in brackets)
 Header: sticky, ink background, height 72px. Logo left (white PNG, height 28px). Desktop nav in one line: Program [#program], Games [#game], Story [#story], Team [#team], FAQ [#faq] + lime pill "Book a demo". Mobile: logo + "Menu" button (disclosure, `aria-expanded`), the header pill hidden; a fixed bottom bar with full-width lime "Book a demo" (min 48px tall, safe-area padding) appears after the hero is scrolled past.

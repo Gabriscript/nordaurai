@@ -140,7 +140,7 @@ strong { font-weight: 600; }
 .header-logo { display: inline-flex; margin-right: auto; }
 .header-logo img { width: auto; height: 32px; }
 .header-nav, .header-cta { display: none; }
-.menu-toggle {
+.menu-toggle, .menu-close {
   min-height: 44px;
   padding: 0 20px;
   border: 1.5px solid var(--paper);
@@ -151,25 +151,52 @@ strong { font-weight: 600; }
   cursor: pointer;
 }
 html:not(.js) .menu-toggle { display: none; }
+
+/* Mobile menu: full-screen overlay, opened and closed behind the wave wipe */
 .menu-panel {
-  position: absolute;
-  inset: 100% 0 auto;
-  padding-block: 16px 32px;
-  border-top: 1px solid color-mix(in oklab, var(--paper) 15%, transparent);
-  background: var(--ink);
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  overflow-y: auto;
+  padding-bottom: 40px;
+  background: var(--indigo);
 }
-.menu-panel a {
+.menu-top { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.menu-top img { width: auto; height: 32px; }
+.menu-links { margin-block: 24px 32px; }
+.menu-links a {
   display: flex;
   align-items: center;
   min-height: 56px;
   color: var(--paper);
   font-family: var(--display);
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
 }
+.menu-links a:hover, .menu-links a:focus-visible { color: var(--lime); }
+section[tabindex="-1"]:focus { outline: none; }
+
+/* Wave wipe: indigo curtain with a wavy edge on both sides, rests off-screen right */
+.wipe {
+  --edge: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  width: 100vw;
+  height: 100dvh;
+  background: var(--indigo);
+  transform: translateX(calc(100% + var(--edge)));
+  pointer-events: none;
+}
+.wipe[data-state] { transform: none; pointer-events: auto; }
+.wipe[data-state="cover"], .wipe[data-state="leave"] { transition: transform 400ms var(--ease); }
+.wipe[data-state="leave"] { transform: translateX(calc(-100% - var(--edge))); }
+.wipe-edge { position: absolute; top: 0; left: 100%; width: var(--edge); height: 100%; fill: var(--indigo); }
+.wipe-edge:first-child { left: auto; right: 100%; transform: scaleX(-1); }
 @media (min-width: 768px) {
   .header-cta { display: inline-flex; }
 }
@@ -185,7 +212,7 @@ html:not(.js) .menu-toggle { display: none; }
     text-decoration: none;
   }
   .header-nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
-  .menu-toggle, .menu-panel { display: none; }
+  .menu-toggle { display: none; }
 }
 
 /* Hero */
